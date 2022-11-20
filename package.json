@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=\"public\""
+    "bootstrap": "lite-server --baseDir=\"public\"",
+    "watch": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run bootstrap\" \"npm run watch\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/klaraangela/Bootstrap_KlaraMahait#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "concurrently": "^7.5.0",
+    "lite-server": "^2.6.1",
+    "sass": "^1.56.1"
   }
 }
