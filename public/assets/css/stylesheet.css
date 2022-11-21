@@ -23,7 +23,7 @@ header {
 }
 
 .search-icon {
-  margin-left: 80px;
+  margin-left: 190px;
 }
 
 .avatar {
@@ -287,6 +287,13 @@ a {
   }
   .four-column-content:hover p {
     color: #3751FF !important;
+  }
+  .chart-container {
+    border-right: none;
+  }
+  /* FIVE ROWS CHART DETAILS */
+  .ticket-stat-container {
+    margin-left: -20px;
   }
   .view:hover p {
     color: gray !important;
