@@ -35,11 +35,11 @@ header {
 }
 
 .search-icon {
-    margin-left: 190px;
+    margin-left: 300px;
 }
 
 .avatar {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 /* 4 COLUMNS SECTION */
@@ -93,19 +93,21 @@ a {
 }
 
 .chart-container{
-    border-right: 1px solid #DFE0EB;
-    padding:25px 40px 8px;
+    border-bottom: 1px solid #DFE0EB;
+    border-right: none;
+    padding: 0 5px;
 }
 
+.chart {
+    padding: 0 20px;
+}
 /* FIVE ROWS CHART DETAILS */
 
-.ticket-stat-container {
-    margin-left: -10px;
-    // padding:25px 40px 10px;
-}
 
 .resolved {
     border-bottom: 1px solid #DFE0EB;
+    border-right: 1px solid #DFE0EB;
+    padding: 20px 0;
 }
 
 .received {
@@ -114,6 +116,17 @@ a {
 
 .average {
     border-bottom: 1px solid #DFE0EB;
+}
+
+.ave-first {
+    border-right: 1px solid #DFE0EB;
+    padding: 20px 0;
+}
+
+.reso{
+    padding: 20px 0 10px;
+    margin-left: 150px;
+
 }
 
 
@@ -164,6 +177,8 @@ a {
     margin-right: 20px;
     font-weight: 700;
 }
+
+
 
 /* UNRESOLVED TICKETS COLUMN */
 
@@ -257,6 +272,7 @@ a {
 }
 
 
+
 /* DESKTOP STYLING */
 @media screen and (min-width: 650px)
  {
@@ -344,7 +360,14 @@ main {
     margin-left: 255px;
 }
 
+// HEADER
+.search-icon {
+    margin-left: 10px;
+}
 
+.avatar {
+    margin-left: 30px;
+}
 
 // 4 COLUMNS SECTION
 .four-column-content:hover div {
@@ -357,23 +380,44 @@ main {
 
 // CHART 
 
-// .chart-container{
-//     border-right: none;
-//     padding:5px;
-// }
-
-
 .chart-container{
-    border-right: none;
-   
+    border-right: 1px solid #DFE0EB;
+    border-bottom: none;
+    padding:25px 40px 8px;
 }
 
 /* FIVE ROWS CHART DETAILS */
 
 .ticket-stat-container {
-    margin-left: -20px;
-    // padding:25px 40px 10px;
+    margin-left: -10px;
 }
+
+.resolved {
+    border-bottom: 1px solid #DFE0EB;
+    border-right: none;
+    padding: 0;
+}
+
+.received {
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.average {
+    border-bottom: 1px solid #DFE0EB;
+}
+
+
+.ave-first {
+    border-right: none;
+    padding: 0;
+}
+
+.reso{
+    padding: 0;
+    margin-left: 0;
+
+}
+
 
 
 // LAST 2 COLUMN SECTION
