@@ -22,10 +22,6 @@ header {
   color: #252733;
 }
 
-.search-icon {
-  margin-left: 300px;
-}
-
 .avatar {
   margin-left: 10px;
 }
@@ -77,10 +73,6 @@ a {
   border-bottom: 1px solid #DFE0EB;
   border-right: none;
   padding: 0 5px;
-}
-
-.chart {
-  padding: 0 20px;
 }
 
 /* FIVE ROWS CHART DETAILS */
